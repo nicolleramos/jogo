@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    margin: 0;
+    background-color: #e9f7fb;
+}
+
+header {
+    background-color: #588BDD;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    margin-right: 20px;
+    width: 36px;
+}
+
+header .ovo img {
+    margin-left: 20px;
+    width: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+.parabens {
+    margin: 30px;
+    height: 100px;
+}
+
+#mensagem {
+    margin-top: -30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#mensagem p {
+    margin-top: -16px;
+}
+
+#nova-atividade-concluida {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nova-atividade-concluida img {
+    border-radius: 20px;
+}
+
+#estrelas img {
+    width: 140px;
+}
+
+#estrelas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#proximo-atividade {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tentar-de-novo {
+    margin-top: -56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#proximo-atividade button {
+    border: none;
+    padding: 16px 40px;
+    border-radius: 30px;
+    background-color: #f8911e;
+    color: #fff;
+    font-size: 17px;
+}
+
+#tentar-de-novo a {
+    text-decoration: none;
+    border: solid 2px #f8911e;
+    color: #f8911e;
+    border-radius: 30px;
+    padding: 16px 40px;
+    background-color: #fff;
+}

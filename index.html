@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/atividade.css">
+</head>
+
+<body onload="carregarAtividade()">
+
+    <form id="formSentimento">
+        <header>
+            <div class="ajuda">
+                <img src="./img/audio-ajuda.png" alt="áudio-ajuda">
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <h3 id="pergunta" style="color: #fff; font-size: 17px; font-weight: 400;"></h3>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav>
+                <ul>
+                    <li><a href="#"><img src="./img/sair.png"></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <img id="imagem" src="">
+
+        <div class="respostas">
+            <div class="opcao1">
+                <img id="opcao1" onclick="selecionarOpcao(0)" src="">
+            </div>
+
+            <div class="opcao2">
+                <img id="opcao2" onclick="selecionarOpcao(1)" src="">
+            </div>
+        </div>
+
+        <div class="btn-corrigir">
+            <button type="button" onclick="continuar()">Continuar</button>
+        </div>
+    </form>
+
+    <script src="./js/Atividade.js"></script>
+</body>
+
+</html>

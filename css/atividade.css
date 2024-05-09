@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    font-family: "Nunito", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A7C8FD;
+}
+
+header {
+    background-color: #588BDD;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    margin-left: 10px;
+    width: 60px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.respostas {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+#imagem {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    gap: -20px;
+}
+
+.btn-corrigir button {
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 16px 60px;
+    border-radius: 20px;
+    background-color: #588BDD;
+    color: #FDEDD2;
+    margin-top: 55px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        width: 100%;
+    }
+
+    header img {
+        width: 50px;
+    }
+
+    .respostas {
+        width: 90%;
+        gap: 4px;
+    }
+
+    #imagem {
+        width: 80%;
+    }
+
+    .btn-corrigir button {
+        padding: 12px 60px;
+    }
+}
+
+

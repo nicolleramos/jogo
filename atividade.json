@@ -1,0 +1,92 @@
+[
+    {
+        "pergunta": "Como ela está se sentindo?",
+        "imagem": "./img/0.png",
+        "audio": "",
+        "opcoes": [
+            {
+                "imagem": "./img/feliz.png",
+                "correcao": 1
+            },
+            {
+                "imagem": "./img/raiva.png",
+                "correcao": 0
+            }
+        ]
+    },
+    {
+        "pergunta": "Como ele está se sentindo?",
+        "imagem": "./img/1.png",
+        "audio": "",
+        "opcoes": [
+            {
+                "imagem": "./img/raiva.png",
+                "correcao": 0
+            },
+            {
+                "imagem": "./img/triste.png",
+                "correcao": 1
+            }
+        ]
+    },
+    {
+        "pergunta": "Como ela está se sentindo?",
+        "imagem": "./img/2.png",
+        "audio": "",
+        "opcoes": [
+            {
+                "imagem": "./img/medo.png",
+                "correcao": 1
+            },
+            {
+                "imagem": "./img/feliz.png",
+                "correcao": 0
+            }
+        ]
+    },
+    {
+        "pergunta": "Como ele está se sentindo?",
+        "imagem": "./img/3.png",
+        "audio": "",
+        "opcoes": [
+            {
+                "imagem": "./img/raiva.png",
+                "correcao": 0
+            },
+            {
+                "imagem": "./img/triste.png",
+                "correcao": 1
+            }
+        ]
+    },
+    {
+        "pergunta": "Como ela está se sentindo?",
+        "imagem": "./img/4.png",
+        "audio": "",
+        "opcoes": [
+            {
+                "imagem": "./img/raiva.png",
+                "correcao": 1
+            },
+            {
+                "imagem": "./img/feliz.png",
+                "correcao": 0
+            }
+        ]
+    },
+    {
+        "pergunta": "Como ele está se sentindo?",
+        "imagem": "./img/5.png",
+        "audio": "",
+        "opcoes": [
+            {
+                "imagem": "./img/surpreso.png",
+                "correcao": 1
+            },
+            {
+                "imagem": "./img/medo.png",
+                "correcao": 0
+            }
+        ]
+    }
+]

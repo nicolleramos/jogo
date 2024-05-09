@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/parabens.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="ovo">
+            <img src="./img/ovo.png">
+        </div>
+
+        <nav>
+            <ul>
+                <li><img src="./img/estrela-branca.png"></li>
+            </ul>
+        </nav>
+    </header>
+
+        <div class="parabens" id="estrelas">
+            <img src="">
+        </div>
+
+        <div class="parabens" id="mensagem">
+        <h2 style="color: #219ebc; font-size: 27px;">Atividade completa</h2>
+        <p style="font-size: 16px;">Parabéns, Nicolle!!</p>
+        </div>
+        
+        <div class="parabens" id="nova-atividade-concluida">
+            <img width="300px" src="./img/comemorar.png">
+        </div>
+
+        <div class="parabens" id="proximo-atividade">
+            <button type="button">Próxima atividade</button>
+        </div>
+
+        <div class="parabens" id="tentar-de-novo">
+            <a href="./atividades.html">Tentar de Novo</a>
+        </div>
+
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const pontuacao = parseInt(urlParams.get('pontuacao'));
+
+        let conteudo = document.getElementById('aviso');
+
+        let estrelas;
+        if (pontuacao === 6) {
+            estrelas = "./img/estrelas-3.png";
+        } else if (pontuacao >= 3) {
+            estrelas = "./img/estrelas-2.png";
+        } else if (pontuacao >= 1) {
+            estrelas = "./img/estrelas-1.png";
+        }  
+        document.getElementById('estrelas').innerHTML = `<img src="${estrelas}" >`;
+    </script>
+
+</body>
+
+</html>
